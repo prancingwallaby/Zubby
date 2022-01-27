@@ -2,7 +2,7 @@ body {
     /*background-color: #1f2937;*/
     display:flex;
     flex-direction: column;
-    gap: 64px;
+    gap: 32px;
     
 }    
 
@@ -17,13 +17,14 @@ ul {
 .header{
     display:flex;
     justify-content: space-around;
+    padding-top:8px;
     /*color: #f9faf8;*/
 }
 
 .overview {
     display:flex;
     justify-content: center;
-    gap: 48px;
+    gap: 64px;
 }
 
 .overview-left {
@@ -32,4 +33,13 @@ ul {
     justify-content: center;
     max-width: 400px;
     gap: 16px;
+}
+
+.overview-right {
+    
+}
+
+img {
+    width: auto;
+    height: 600px;
 }
