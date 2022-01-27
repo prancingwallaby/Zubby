@@ -35,11 +35,29 @@ ul {
     gap: 16px;
 }
 
-.overview-right {
-    
+#ZMain {
+    width: auto;
+    height: 600px; 
 }
 
 img {
-    width: auto;
-    height: 600px;
+    width:300px;
+    height:auto;
+}
+
+.top-information {
+    text-align: center;
+    margin-top: -64px;
+    margin-bottom: 32px;
+}
+
+.zubbybiz-all {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 48px;
+}
+
+.zubbybiz-each {
+    max-width: 300px;
 }
