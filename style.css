@@ -43,6 +43,8 @@ ul {
 img {
     width:300px;
     height:auto;
+    padding: 16px;
+    border-radius: 100px;
 }
 
 .top-information {
@@ -54,10 +56,12 @@ img {
 .zubbybiz-all {
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 48px;
     margin-top: 48px;
+    margin-bottom: 16px;
 }
 
 .zubbybiz-each {
     max-width: 300px;
+    
 }
