@@ -1,8 +1,8 @@
 body {
-    /*background-color: #1f2937;*/
+    
     display:flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 64px;
     
 }    
 
@@ -12,19 +12,36 @@ ul {
     margin: 0;
     gap: 36px;
     list-style-type: none;
+    color: #f9faf8;
+}
+
+button {
+    border-radius: 10px;
+    width: 100px;
+    background-color:#ff5b5b;
 }
 
 .header{
     display:flex;
     justify-content: space-around;
     padding-top:8px;
-    /*color: #f9faf8;*/
+    color: #f9faf8;
+    background-color: #1f2937;
+    font-size: 18px;
+}
+
+.heroname {
+    font-size:24px;
 }
 
 .overview {
     display:flex;
     justify-content: center;
     gap: 64px;
+    margin-top: -64px;
+    background-color: #1f2937;
+    max-height:300px;
+    
 }
 
 .overview-left {
@@ -33,15 +50,22 @@ ul {
     justify-content: center;
     max-width: 400px;
     gap: 16px;
+    color: #f9faf8;
+}
+
+.overviewtitle {
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 #ZMain {
     width: auto;
-    height: 600px; 
+    height: 400px;
+    margin-top: -64px; 
 }
 
 img {
-    width:300px;
+    width:250px;
     height:auto;
     padding: 16px;
     border-radius: 100px;
@@ -49,8 +73,13 @@ img {
 
 .top-information {
     text-align: center;
-    margin-top: -64px;
+    margin-top: -32px;
     margin-bottom: 32px;
+}
+
+.zubbybizheader{
+    font-size: 36px;
+    font-weight: bolder;
 }
 
 .zubbybiz-all {
@@ -64,4 +93,36 @@ img {
 .zubbybiz-each {
     max-width: 300px;
     
+}
+
+.quote {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 300px 0 300px;
+    font-size: 36px;
+    font-style: italic;
+    margin: 0 auto 32px;
+    height: 400px;
+    background-color: #E5E7EB;
+}
+
+.zubscribe {
+    display:flex;
+    justify-content: center;
+    gap: 48px;
+    max-width:600px;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 10px;
+    background-color:#ff5b5b;
+}
+
+.footer {
+    text-align:center;
+    display:flex;
+    padding: 8px;
+    justify-content: center;
+    color: #f9faf8;
+    background-color: #1f2937;
 }
